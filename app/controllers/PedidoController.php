@@ -101,17 +101,16 @@ class PedidoController extends \BaseController {
 
 	public function cantMesas()
 	{
- 		$paramList=Paramet::all();
+ 	  /*	$paramList=Paramet::all();
     	foreach($paramList as $param)
        		 {
        		   return  $param->ParMesas;
-        	 }
+        	 }*/
        		 return 0;
     }
 
 	public function cantMesasEnJson()
 	{
-		
  	 try
 		 {
        		 $statusCode = 200;
@@ -120,7 +119,9 @@ class PedidoController extends \BaseController {
        	   		 }catch (Exception $e){
         	$statusCode = 400;
    		 }finally{
-        return Response::json($response, $statusCode);
+
+	return Response::json(array('status'=>200,'message'=>'ok'));
+//        return Response::json($response, $statusCode);
     	}
     }
 

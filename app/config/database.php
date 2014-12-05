@@ -54,11 +54,11 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'port'      => 3307,
-			'database'  => 'posrest2',
-			'username'  => 'root',
-			'password'  => 't5xsm+kt8A',
+			'host'      => '5481c53b5973ca9f4b000020-wgiraldo.rhcloud.com',
+			'port'      => 64271,
+			'database'  => 'vacuno',
+			'username'  => 'adminY6PUbcP',
+			'password'  => 'qP1LzAM-51_U',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
